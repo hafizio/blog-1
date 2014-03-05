@@ -12,6 +12,7 @@ Rails.application.config.middleware.insert_after(
 
 Haml::Template.options[:format] = :xhtml # for the feed
 
+require 'gemoji'
 module Tilt
   class PengwynnFlavoredMarkdownTemplate < Template
 
