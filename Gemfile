@@ -15,6 +15,7 @@ gem 'nesta-rails'
 gem 'rack-rewrite'
 gem 'rails', '3.2.17'
 gem 'rails_12factor'
+gem 'thin'
 
 group :development do
   gem 'foreman'
@@ -33,9 +34,5 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-end
-
-group :production do
-  gem 'unicorn'
 end
 
