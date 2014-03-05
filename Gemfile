@@ -24,6 +24,7 @@ end
 group :assets do
   gem 'compass-rails'
   gem 'compass-normalize'
+  gem 'google-code-prettify-rails'
   gem 'susy', '~> 1.0.9'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'sass-rails',   '~> 3.2.3'

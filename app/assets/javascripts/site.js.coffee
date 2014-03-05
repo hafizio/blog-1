@@ -9,3 +9,7 @@ $(document).ready ->
 
   $('.page.journal p.post-meta').prev()
     .append("<span class='pengwynn'>&nbsp;</span>")
+
+  # syntax
+  $('pre>code').addClass('prettyprint')
+  prettyPrint()
