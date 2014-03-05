@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-gem 'charlock_holmes'
 gem 'gemoji'
-gem 'github-linguist'
 gem 'github-markdown'
 gem 'heroku_rails_deflate'
 gem 'html-pipeline'

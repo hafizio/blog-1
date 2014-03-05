@@ -13,7 +13,7 @@ Rails.application.config.middleware.insert_after(
 Haml::Template.options[:format] = :xhtml # for the feed
 
 module Tilt
-  class MarkdownEmojiSyntaxTemplate < Template
+  class PengwynnFlavoredMarkdownTemplate < Template
 
     def prepare
       @output = nil
@@ -27,8 +27,7 @@ module Tilt
       }
       pipeline = HTML::Pipeline.new [
         HTML::Pipeline::MarkdownFilter,
-        HTML::Pipeline::EmojiFilter,
-        HTML::Pipeline::SyntaxHighlightFilter
+        HTML::Pipeline::EmojiFilter
       ], context
 
       @output ||= pipeline.call(data)[:output].to_s
@@ -40,4 +39,4 @@ module Tilt
   end
 end
 
-Tilt.register Tilt::MarkdownEmojiSyntaxTemplate, 'mdown'
+Tilt.register Tilt::PengwynnFlavoredMarkdownTemplate, 'mdown'
