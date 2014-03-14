@@ -69,13 +69,6 @@ module Blog
     #config.middleware.use Rack::Deflater
     config.middleware.insert 0, Rack::Rewrite do
 
-      unless Rails.env.development?
-        r301 %r{.*}, 'http://wynnnetherland.com$&', :if => Proc.new {|rack_env|
-          rack_env['SERVER_NAME'] != 'wynnnetherland.com' &&
-            rack_env['SERVER_NAME'] !~ /stg/
-        }
-      end
-
       r301 '/blog/link-linkedin-into-your-next-ruby-application', 'https://github.com/pengwynn/linkedin'
       r301 '/blog/font-face-off-typekit-vs-font-squirrel', '/journal/font-face-off-typekit-vs-font-squirrel'
       r301 '/blog/rubyists-meet-underscore-js-your-new-favorite-javascript-library', '/journal/rubyists-meet-underscore-js-your-new-favorite-javascript-library'

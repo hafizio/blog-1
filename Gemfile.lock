@@ -42,6 +42,7 @@ GEM
     activesupport (3.2.17)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    addressable (2.3.5)
     arel (3.0.3)
     builder (3.0.4)
     chunky_png (1.2.9)
@@ -108,6 +109,9 @@ GEM
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
+    rack-canonical-host (0.0.8)
+      addressable
+      rack (~> 1.0)
     rack-protection (1.5.2)
       rack
     rack-rewrite (1.4.01)
@@ -189,6 +193,7 @@ DEPENDENCIES
   nesta-plugin-linkable
   nesta-plugin-sluggable
   nesta-rails
+  rack-canonical-host
   rack-rewrite
   rails (= 3.2.17)
   rails_12factor
