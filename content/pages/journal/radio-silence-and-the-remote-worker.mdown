@@ -1,0 +1,79 @@
+date: 2014-04-04 09:12:41 -0500
+categories: journal
+flags: draft
+
+# Radio silence and the remote worker
+
+Years ago, before I began working remotely full time, I would often steal away
+to a hidden conference room on some sparsely inhabited floor to hide out and
+work. Getting work done often meant getting away from the office chatter.
+
+The sounds of other people working can be overwhelming. It doesn't take much to
+overload my senses and shut down my brain.
+
+The nature of remote work changes the nature of communication. Chatter for
+remote workers comes in a different form. Messages are often asynchronous and
+non-blocking. The result is longer periods of intense focus and concentration.
+Productivity ensues.
+
+As much as we still complain about our clogged inboxes, for remote workers,
+noise is seldom the problem. It's silence.
+
+If a little quiet is good for work, then more quiet should be better, right?
+For me, a prolonged lull in email, chat room conversations, and @mentions can
+have its own negative effects.
+
+## Isolation
+
+Even the most independent people need regular human interaction. I normally
+work at home, where we also [homeschool our kids][]. When not at home, I
+frequent local coffee shops with friends in the industry. I'm rarely alone.
+
+Yet the co-workers I work with most are in [North Carolina][] and [North
+Dakota][], quite the hike from North Texas.
+
+When online communication lapses, it's easy to feel isolated with that kind of
+distance between team members.
+
+## Identity crisis
+
+We all have our areas of expertise within our organizations. We are the keepers
+of certain domain knowledge. While it can become taxing to constantly field
+questions, there's a joy in sharing that knowledge with others. For better or
+worse, we often form our identities on being The API Guy, The JavaScript Gal,
+The HR Lady, or The Product Person.
+
+When people stop asking you questions it's easy to begin doubting (however
+misguidedly) the value you bring to the team.
+
+## Tips for handling the silence
+
+Chatter is seldom constant. Every din will eventually recede during periods of
+travel, holidays, and life events. It's the artificial lulls that you have to
+watch. Here are some things that help me handle that cycle.
+
+- **Never work alone.** It sounds obvious, but your chances of getting isolated
+decrease considerably when you're actively part of a team. Enlist support for
+features or initiatives you want to work on, or pitch in on someone else's
+efforts. We're [better together][].
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/qT90jZP58jM"
+frameborder="0" allowfullscreen></iframe>
+
+- **Look out for each other.** On the flip side, don't become so blinded by
+your own TODO list that you fail to notice when a co-worker has gone radio
+silent. An email, IM, or phone call has real power to help someone feel more
+included. I have no official HR responsibilities, but I try to reach out to new
+GitHubbers a few weeks after they're hired, just to say "I'm glad you're here,
+are you getting plugged in?"
+
+- **Embrace the rhythm.** Take advantage of those brief periods of peace and
+quiet, knowing things will get loud again soon.
+
+Embrace the noise as the soothing sounds of :ship:-ing.
+
+
+[homeschool our kids]: http://smalltexas.com/tagged/homeschool
+[better together]: https://www.youtube.com/watch?v=qT90jZP58jM
+[North Carolina]: https://twitter.com/jasonrudolph
+[North Dakota]: https://twitter.com/technoweenie
