@@ -1,6 +1,5 @@
 date: 2014-04-04 09:12:41 -0500
 categories: journal
-flags: draft
 
 # Radio silence and the remote worker
 
